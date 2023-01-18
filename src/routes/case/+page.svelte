@@ -5,8 +5,6 @@
 	import Calling from '$lib/client/components/Calling.svelte';
 	import Prioritize from '$lib/client/components/Prioritize.svelte';
 
-	console.log($cases);
-
 	let showCalling = true;
 	let showCall = false;
 	let showPrioritize = false;
