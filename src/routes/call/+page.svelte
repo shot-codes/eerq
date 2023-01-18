@@ -2,7 +2,11 @@
 	<div class="text-xl font-bold">ERPQ</div>
 	<div>Emergency Room Prioritization Queue</div>
 
-	<img src="/bike.png" class="rounded-xl w-64 mt-4" alt="woman sitting on the pavement next to a broken bike."/>
+	<img
+		src="/bike.png"
+		class="rounded-xl w-64 mt-4"
+		alt="woman sitting on the pavement next to a broken bike."
+	/>
 
 	<div class="mt-4 text-neutral-600 text-center">
 		Caller one has just fallen of their bicyle. They are complaining that their ankle is in a lot of

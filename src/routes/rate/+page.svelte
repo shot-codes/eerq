@@ -47,7 +47,7 @@
 	<div class="flex absolute bottom-12 w-full justify-center">
 		<a
 			href="/"
-			class="mt-16 bg-green-700 rounded-full w-14 h-14 flex-shrink-0 flex items-center justify-center"
+			class=" bg-blue-700 rounded-full w-14 h-14 flex-shrink-0 flex items-center justify-center"
 		>
 			<svg
 				class="mr-[2px]"
