@@ -6,10 +6,13 @@
 </script>
 
 <div class="flex flex-col h-full items-center p-10 pb-20">
-	<div>
-		<div>Please rank the priority of the call:</div>
+	<div class="text-center">
+		<div class="text-xl font-bold">ERPQ</div>
+		<div>Emergency Room Prioritization Queue</div>
 
-		<div class="flex flex-col space-y-3 items-center mt-10">
+		<div class="mt-6 text-neutral-600">Please rank the priority of the call:</div>
+
+		<div class="flex flex-col space-y-3 items-center mt-4">
 			<label>
 				<div class="absolute pl-14 pt-3 text-xs">Highest Priority</div>
 				<input type="radio" name="1" on:click={select} />
