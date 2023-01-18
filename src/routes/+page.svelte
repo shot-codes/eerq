@@ -11,7 +11,7 @@
 </script>
 
 <div class="flex flex-col justify-center items-center p-10">
-	<div class="text-xl font-bold">EERQ</div>
+	<div class="text-xl font-bold">ERPQ</div>
 	<div>Emergency Room Prioritization Queue</div>
 
 	<div class="mt-8 text-neutral-600 text-center">

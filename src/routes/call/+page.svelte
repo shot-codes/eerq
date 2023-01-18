@@ -1,5 +1,5 @@
 <div class="flex flex-col justify-center items-center p-10">
-	<div class="text-xl font-bold">EERQ</div>
+	<div class="text-xl font-bold">ERPQ</div>
 	<div>Emergency Room Prioritization Queue</div>
 
 	<img src="/bike.png" class="rounded-xl w-64 mt-4" alt="woman sitting on the pavement next to a broken bike."/>
