@@ -1,4 +1,10 @@
 <script lang="ts">
+	import { goto } from '$app/navigation';
+	import { createEventDispatcher } from 'svelte';
+	import { cases } from '../stores';
+
+	const dispatch = createEventDispatcher();
+
 	let radioSelected = false;
 	const select = () => {
 		radioSelected = true;
@@ -47,9 +53,12 @@
 	</div>
 </div>
 {#if radioSelected}
-	<div class="flex absolute bottom-12 w-full justify-center">
-		<a
-			href="/"
+	<div class="flex fixed bottom-12 w-full justify-center">
+		<button
+			on:click={() => {
+				if ($cases.length == 0) goto('/thanks');
+				else dispatch('done');
+			}}
 			class=" bg-blue-700 rounded-full w-14 h-14 flex-shrink-0 flex items-center justify-center"
 		>
 			<svg
@@ -75,7 +84,7 @@
 					/></path
 				></svg
 			>
-		</a>
+		</button>
 	</div>
 {/if}
 

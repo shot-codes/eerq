@@ -1,0 +1,25 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Case {
+  id          String   @id @unique
+  image_url   String
+  description String
+  Rating      Rating[]
+}
+
+model Rating {
+  id     String @id @unique
+  rating Int
+  case   Case   @relation(fields: [caseId], references: [id])
+  caseId String
+}
