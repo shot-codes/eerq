@@ -8,12 +8,13 @@
 <div class="flex flex-col justify-center items-center p-10">
 	<div class="text-xl font-bold">ERPQ</div>
 	<div>Emergency Room Prioritization Queue</div>
-
-	<img
-		src={$activeCase.image_url}
-		class="rounded-xl w-64 mt-4"
-		alt="woman sitting on the pavement next to a broken bike."
-	/>
+	<div class="w-64 h-64 mt-10">
+		<img
+			src={$activeCase.image_url}
+			class="rounded-xl w-64"
+			alt="woman sitting on the pavement next to a broken bike."
+		/>
+	</div>
 
 	<div class="mt-4 text-neutral-600 text-center">
 		{$activeCase.description}
