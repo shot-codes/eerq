@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { cases } from '$lib/client/stores';
 	import { fade } from 'svelte/transition';
 	import Call from '$lib/client/components/Call.svelte';
 	import Calling from '$lib/client/components/Calling.svelte';

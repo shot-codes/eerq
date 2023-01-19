@@ -5,21 +5,21 @@ const prisma = new PrismaClient();
 const cases = [
 	{
 		id: '1',
-		image_url: 'bike.png',
+		image_url: 'bike.jpg',
 		description:
-			'Caller one has just fallen of their bicyle. They are complaining that their ankle is in a lot of pain, and they have a blistering headache.'
+			'The caller has just fallen off of their bicycle. They are complaining that their ankle is in a lot of pain, and they have a blistering headache.'
 	},
 	{
 		id: '2',
-		image_url: 'man.png',
+		image_url: 'man.jpg',
 		description:
-			'Caller two has just fallen of their bicyle. They are complaining that their ankle is in a lot of pain, and they have a blistering headache.'
+			'The caller has just witnessed their colleague collapse. They are reporting that they are responsive but dazed and confused.'
 	},
 	{
 		id: '3',
-		image_url: 'gma.png',
+		image_url: 'gma.jpg',
 		description:
-			'Caller three has just fallen of their bicyle. They are complaining that their ankle is in a lot of pain, and they have a blistering headache.'
+			'An elderly woman is calling and explaining that she has a dull and deep pain in her chest. She says she just ate strange looking berries from her garden.'
 	}
 ] satisfies Case[];
 
