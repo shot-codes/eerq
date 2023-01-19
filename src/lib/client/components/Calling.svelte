@@ -10,7 +10,6 @@
     if ($cases) {
       const nextCase = $cases.shift();
       currentCase.update((n) => n + 1);
-      console.log($currentCase);
       if (nextCase) $activeCase = nextCase;
       else dispatch("thanks");
     }

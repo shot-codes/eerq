@@ -1,5 +1,6 @@
 <script lang="ts">
   import { cases, currentCase, totalCases } from "$lib/client/stores";
+  import Confetti from "$lib/client/components/Confetti.svelte";
 
   currentCase.set($totalCases);
   cases.set([
@@ -23,6 +24,8 @@
     },
   ]);
 </script>
+
+<Confetti />
 
 <div class="flex flex-col justify-center items-center p-10">
   <div class="text-xl font-bold">ERPQ</div>
