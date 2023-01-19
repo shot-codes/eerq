@@ -15,7 +15,11 @@
 </script>
 
 {#if showCalling}
-  <div class="absolute h-full" in:fade={{ duration: 100, delay: 100 }} out:fade={{ duration: 100 }}>
+  <div
+    class="absolute h-full w-full"
+    in:fade={{ duration: 100, delay: 100 }}
+    out:fade={{ duration: 100 }}
+  >
     <Calling
       on:done={() => {
         showCalling = false;
